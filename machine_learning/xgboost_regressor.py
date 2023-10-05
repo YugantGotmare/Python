@@ -13,7 +13,7 @@ class XGBoostRegressor():
         
         Parameters:
             params (dict): Hyperparameters for the XGBoost model.
-            random_seed (int): Seed for random number generation.
+            random_seed (int): Seed for the random number generation.
         '''
         # Set hyperparameters with defaults
         self.params = defaultdict(lambda: None, params)
